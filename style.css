@@ -1,0 +1,40 @@
+Body{
+    margin: 0;
+    font-family: jetbrains mono;
+}
+a{
+    text-decoration: none ;
+    color: rgb(23, 20, 20);
+}
+header{   
+   display: flex;
+   background-color: #887abd;
+   min-height: 50px;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 150px;
+    margin-right: 10px;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: #6a7572;
+}
+
+@media (max-width:458px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
